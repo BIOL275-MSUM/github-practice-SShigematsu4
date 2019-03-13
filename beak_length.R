@@ -108,3 +108,5 @@ beak_length_survived
 # perform a two-sample t-test assuming unequal variances
 
 t.test(beak_length_died, beak_length_survived)
+
+
