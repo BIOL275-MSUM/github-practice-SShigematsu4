@@ -1,19 +1,26 @@
+---
+title: "GitHub practice Finches"
+output: github_document
+---
 
 # load packages 
 
-```{r}
+```{r,message=FALSE,warning=FALSE}
 library(readxl)     
 library(tidyverse)  
 ```
 
 # read data
 
-```{r}
-finches <- read_excel
+```{r,message=FALSE,warning=FALSE}
+finches <- read_excel("finches_data.xlsx")
 finches
 glimpse(finches)
+
 ```
+
 # histogram
+
 ```{r}
 ggplot(
   data = finches,                     # use the finches dataset
