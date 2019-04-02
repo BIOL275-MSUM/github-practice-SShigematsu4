@@ -33,12 +33,12 @@ summary(cars)
 References
 ----------
 
-Cite 3 sources here.
-
 GBIF Database - 2 sets
 
-[Dermochelyidae - occurrences 7,195](https://www.gbif.org/occurrence/search?taxon_key=5464)
+[GBIF.org (01 April 2019) Cheloniidae - occurrences Download](https://doi.org/10.15468/dl.mxpm3u) (Involved datasets 271) [Cheloniidae - occurrences 108,250](https://www.gbif.org/occurrence/search?taxon_key=9413)
 
-[Cheloniidae - occurrences 108,250](https://www.gbif.org/occurrence/search?taxon_key=9413)
+[GBIF.org (01 April 2019) Dermochelyidae - occurrences Download](https://doi.org/10.15468/dl.kpsvhg) (Involved datasets 178) [Dermochelyidae - occurrences 7,195](https://www.gbif.org/occurrence/search?taxon_key=5464)
+
++3 more citations
 
 ![](RMD_turtle_project_files/figure-markdown_github/pressure-1.png)
