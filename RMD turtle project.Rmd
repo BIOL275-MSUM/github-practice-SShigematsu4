@@ -51,6 +51,9 @@ The second paragraph in your methods should give a brief overview of how you ana
 ggplot(data = Cheloniidae) + geom_bar(mapping = aes(x = species)) + coord_flip()
 ```
 
+```{r}
+ggplot(data = Dermochelyidae) + geom_bar(mapping = aes(x = species)) + coord_flip()
+```
 
 
 ## References
