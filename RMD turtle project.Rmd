@@ -47,21 +47,26 @@ two paragraphs. In the first, explain where the dataset comes from, including th
 
 The second paragraph in your methods should give a brief overview of how you analyzed the data. 
 
-```{r cars}
-summary(cars)
+```{r}
+ggplot(data = Cheloniidae) + geom_bar(mapping = aes(x = species)) + coord_flip()
 ```
+
 
 
 ## References
 
-Cite 3 sources here.
-
 GBIF Database - 2 sets
 
-[Dermochelyidae - occurrences 7,195](https://www.gbif.org/occurrence/search?taxon_key=5464)
-
+[GBIF.org (01 April 2019) Cheloniidae - occurrences Download](https://doi.org/10.15468/dl.ilhrhu) 
+(Involved datasets 271)
 [Cheloniidae - occurrences 108,250](https://www.gbif.org/occurrence/search?taxon_key=9413)
 
+[GBIF.org (01 April 2019) Dermochelyidae - occurrences Download](https://doi.org/10.15468/dl.hi499f) 
+(Involved datasets 178)
+[Dermochelyidae - occurrences 7,195](https://www.gbif.org/occurrence/search?taxon_key=5464)
+
+
++3 more citations
 
 ```{r pressure, echo=FALSE}
 plot(pressure)
