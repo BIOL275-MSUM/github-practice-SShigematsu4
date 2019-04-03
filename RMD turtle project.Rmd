@@ -63,7 +63,7 @@ GBIF Database - 2 sets
 
 [Sea Turtle Conservancy 1996-2019](https://conserveturtles.org/information-sea-turtles-species-world/)
 
-+2 more citations
++ peer reviewed journal citations
 
 
 
