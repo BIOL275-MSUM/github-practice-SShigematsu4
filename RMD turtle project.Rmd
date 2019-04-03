@@ -1,0 +1,69 @@
+---
+title: "5 Most Common Turtle Species Globally & the Counties They Are Most Prevalent In"
+output: github_document
+---
+
+
+## Abstract
+
+Turtles are among one of the oldest groups of reptiles that date back millions of years. There are over 300 species of turtles that reside in varying climates and environments all around the world. I will investigate which five sea turtle species are most commonly found globally and in which countries they are most prevalent. In an effort to find an answer to my question, I will be utilizing the data found in GBIF [Global Biodiversity Information Facility] for turtle occurrences filtered by machine and human observations. I plan to perform an exploratory data analysis of sea turtle occurrences in order to compare the variables in the data set. With my anticipated results, researchers and other sea turtle scientists may be able to also utilize this information to help compare to future observations of occurrences and determine if they have increased or decreased in numbers in specific countries globally.
+
+```{r,message=FALSE,warning=FALSE}
+ 
+```
+
+
+## Introduction
+
+There are seven sea turtle species that can be found residing in oceans all over the world. Unlike the other six species of sea turtles, the flatback sea turtles [*Natator depressa*] are the only species that is not found globally because it is specific to the waters of Australia. (Sea Turtle Conservancy 2019)
+
+
+## Methods
+
+Data for this analysis was taken from the GBIF [Global Biodiversity Information Facility] database. Data included observations of sea turtles searched by the scientific subfamily names [*Cheloniidae*](https://www.gbif.org/occurrence/search?taxon_key=9413) and [*Dermochelyidae*](https://www.gbif.org/occurrence/search?taxon_key=5464).
+
+The second paragraph in your methods should give a brief overview of how you analyzed the data. 
+
+# load packages
+
+```{r,message=FALSE,warning=FALSE}
+library(tidyverse)
+```
+
+# read data
+
+```{r,message=FALSE,warning=FALSE}
+Cheloniidae <- read_excel("XxxX")
+Cheloniidae
+view(Cheloniidae)
+
+Dermochelyidae <- read_excel("XxxX")
+Dermochelyidae
+View(Dermochelyidae)
+
+```
+
+
+```{r}
+ggplot(data = Cheloniidae) + geom_bar(mapping = aes(x = species)) + coord_flip()
+```
+
+
+## References
+
+GBIF Database - 2 sets
+
+[GBIF.org (01 April 2019) *Cheloniidae* - occurrences Download](https://doi.org/10.15468/dl.ilhrhu) 
+(Involved datasets 271)
+[*Cheloniidae* - occurrences 108,250](https://www.gbif.org/occurrence/search?taxon_key=9413)
+
+[GBIF.org (01 April 2019) *Dermochelyidae* - occurrences Download](https://doi.org/10.15468/dl.hi499f) 
+(Involved datasets 178)
+[*Dermochelyidae* - occurrences 7,195](https://www.gbif.org/occurrence/search?taxon_key=5464)
+
+[Sea Turtle Conservancy 1996-2019](https://conserveturtles.org/information-sea-turtles-species-world/)
+
++2 more citations
+
+
+
