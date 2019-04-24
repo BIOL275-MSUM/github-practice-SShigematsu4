@@ -1,7 +1,10 @@
+
 GitHub practice Finches
+
 ================
 
 load packages
+
 =============
 
 ``` r
@@ -10,6 +13,7 @@ library(tidyverse)
 ```
 
 read data
+
 =========
 
 ``` r
@@ -33,6 +37,7 @@ finches
     ## # ... with 90 more rows, and 4 more variables: tarsus <dbl>,
     ## #   beak_length <dbl>, beak_depth <dbl>, beak_width <dbl>
 
+
 ``` r
 glimpse(finches)
 ```
@@ -52,7 +57,9 @@ glimpse(finches)
     ## $ beak_depth       <dbl> 8.3, 7.5, 8.0, 10.6, 11.2, 9.1, 9.5, 10.5, 8....
     ## $ beak_width       <dbl> 8.1, 7.5, 7.6, 9.4, 9.5, 8.8, 8.9, 9.1, 8.2, ...
 
+
 histogram
+
 =========
 
 ``` r
@@ -71,7 +78,13 @@ ggplot(
   )
 ```
 
-![](practice_markdown_files/figure-markdown_github/unnamed-chunk-3-1.png) \# summarize
+![](practice_markdown_files/figure-markdown_github/unnamed-chunk-3-1.png)
+
+
+
+summarize
+
+=========
 
 ``` r
 beak_length_grouped_summary <- 
@@ -93,7 +106,10 @@ beak_length_grouped_summary
     ## 1 died      10.5 0.698    50 0.0987  10.7  10.3
     ## 2 survived  11.1 0.840    50 0.119   11.3  10.8
 
+
+
 bar chart
+
 =========
 
 ``` r
@@ -117,7 +133,13 @@ ggplot(
   )
 ```
 
-![](practice_markdown_files/figure-markdown_github/unnamed-chunk-5-1.png) \# t-test
+![](practice_markdown_files/figure-markdown_github/unnamed-chunk-5-1.png)
+
+
+
+t-test
+
+======
 
 ``` r
 beak_length_died <-
