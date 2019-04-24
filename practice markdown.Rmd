@@ -19,7 +19,9 @@ glimpse(finches)
 
 ```
 
+
 # histogram
+
 
 ```{r}
 ggplot(
@@ -36,7 +38,11 @@ ggplot(
     y = "Number of Birds"             # y-axis label
   )
 ```
+
+
 # summarize
+
+
 ```{r}
 beak_length_grouped_summary <- 
   finches %>% 
@@ -50,7 +56,11 @@ beak_length_grouped_summary <-
 
 beak_length_grouped_summary
 ```
+
+
 # bar chart
+
+
 ```{r}
 ggplot(
   data = beak_length_grouped_summary,   # dont use the original finches dataset
@@ -71,7 +81,11 @@ ggplot(
     y = "Beak Length (mm)"              # y-axis label
   )
 ```
+
+
 # t-test
+
+
 ```{r}
 beak_length_died <-
   finches %>%                     # start with finches dataset
